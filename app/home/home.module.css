@@ -1,30 +1,30 @@
-.bgWrap {
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  z-index: -1;
-}
-.bgHeader {
-  margin: 0;
-  padding-top: 25px;
-  font-size: 56px;
-  font-weight: 800;
-  color: #fff;
-  line-height: 45px;
-  text-align: center;
+.bgWrap{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
 }
 
-.bgText {
-  margin: 0;
-  font-size: 30px;
-  padding-top: 25px;
-  color: #fff;
-  text-align: center;
-  font-style: italic;
+.bgHeader{
+    margin: 0;
+    padding-top: 25px;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: center;
 }
 
-.bgLinks {
-  text-decoration: none;
-  color: #fff;
+.bgText{
+    margin: 0;
+    font-size: 30px;
+    padding-top: 25px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.bgLinks{
+    text-decoration: none;
+    color: #fff;
 }

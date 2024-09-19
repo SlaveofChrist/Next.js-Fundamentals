@@ -1,8 +1,9 @@
-.homeLink {
-  text-decoration: none;
-  color: #fff;
+.homeLink{
+    text-decoration: none;
+    color: #fff;
 }
-.menuBarLinks {
-  color: #bdfef2;
-  text-decoration: none;
+
+.menuBarLink{
+    text-decoration: none;
+    color: #bdfef2;
 }

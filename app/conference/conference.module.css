@@ -1,64 +1,66 @@
-.bgWrap {
-  position: fixed;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
-  z-index: -1;
-}
-.bgHeader {
-  margin: 0;
-  padding-top: 25px;
-  padding-top: 25px;
-  font-size: 56px;
-  font-weight: 800;
-  color: #fff;
-  line-height: 45px;
-  text-align: center;
+.bgWrap{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
 }
 
-.bgText {
-  margin: 0;
-  font-size: 30px;
-  padding-top: 25px;
-  color: #fff;
-  text-align: center;
-  font-style: italic;
+.bgHeader{
+    margin: 0;
+    padding-top: 25px;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
 }
 
-.bgLinks {
-  text-decoration: none;
-  color: #fff;
-}
-.parentContainer {
-  margin: 50px;
+.bgText{
+    margin: 0;
+    font-size: 30px;
+    padding-top: 25px;
+    text-align: center;
+    font-style: italic;
+    color: #fff;
+
 }
 
-.infoContainer {
-  display: block;
-  box-sizing: inherit;
-  margin-top: 1rem;
-  background-color: #262630;
-  padding: 10px;
+.bgLinks{
+    text-decoration: none;
+    color: #fff;
 }
 
-.titleText {
-  text-align: center;
-  font-size: 26px;
-  font-weight: 800;
-  color: #bdfef2;
+.parentContainer{
+    margin : 50px;
 }
 
-.descText {
-  font-size: 14px;
-  color: #fff;
-  line-height: 24px;
-  flex-wrap: wrap;
-  padding: 10px;
+.infoContainer{
+ display: block;
+ box-sizing: inherit;
+ margin-top: 1rem;
+ background-color: #262630;
+ padding: 10px;
 }
 
-.infoText {
-  text-align: center;
-  font-size: 20px;
-  font-weight: 800;
-  color: #fff;
+.titleText{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+    color: #bdfef2;
+}
+
+.descText{
+    font-size: 14px;
+    color: #fff;
+    line-height: 24px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.infoText{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
 }
